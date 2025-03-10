@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
+all: unset;
+display: revert;
+}
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+}
+ol, ul {
+list-style: none;
+}
+img {
+max-width: 100%;
+}
+table {
+border-collapse: collapse;
+}
+textarea {
+white-space: revert;
+}
+
+/*Start css*/
+
+.clearfix {
+    overflow: auto;
+}
+
+.page-one{
+    height: 30rem;
+    background-color: #1F2937;
+    padding-top: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.page-one-content-area{
+    width: 1500px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-area h1{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.link-area{
+    display: flex;
+    font-size: 1.125rem;
+    font-family: sans-serif;
+    color: #F9FAF8;
+}
+
+.link-area p{
+    padding: 0 1em;
+}
+
+.first-page-content-area{
+    padding-top: 5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-page-text-area{
+    width: 50%;
+}
+
+.first-page-image-area{
+    width: 50%;
+}
+
+.first-page-text-area h1{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    color: #F9FAF8;
+    line-height: 1.5em;
+}
+
