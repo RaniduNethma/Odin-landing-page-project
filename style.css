@@ -29,14 +29,14 @@ white-space: revert;
 }
 
 .page-one{
-    height: 30rem;
+    height: fit-content;
     background-color: #1F2937;
-    padding-top: 1em;
+    padding-top: 3em;
     display: flex;
     justify-content: center;
 }
 
-.page-one-content-area{
+.content-area-all-pages{
     width: 1500px;
 }
 
@@ -53,37 +53,108 @@ white-space: revert;
     font-size: 24px;
 }
 
+.logo-area{
+    width: 70%;
+    display: flex;
+    justify-content: left;
+}
+
 .link-area{
+    width: 30%; 
     display: flex;
     font-size: 1.125rem;
     font-family: sans-serif;
     color: #F9FAF8;
-}
-
-.link-area p{
-    padding: 0 1em;
+    display: flex;
+    justify-content: space-between;
 }
 
 .first-page-content-area{
-    padding-top: 5em;
+    padding-top: 4em;
     display: flex;
     justify-content: space-between;
 }
 
 .first-page-text-area{
     width: 50%;
+    margin: 0 2em 4em 0;
 }
 
 .first-page-image-area{
     width: 50%;
+    margin: 0 0 4em 2em;
+    display: flex;
+    justify-content: center;
+
 }
 
 .first-page-text-area h1{
     font-family: "Press Start 2P", system-ui;
     font-weight: 400;
     font-style: normal;
-    font-size: 2rem;
+    font-size: 3rem;
     color: #F9FAF8;
-    line-height: 1.5em;
+    line-height: 1.2em;
+}
+
+.first-page-image-area img{
+    width: max-content;
+}
+
+.first-page-text-area p{
+    padding-top: 1em;
+    color: #F9FAF8;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+}
+
+.signup-button{
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    background-color: #3882F6;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.page-two{
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.page-two-main-text{
+    padding: 3em 0;
+    display: flex;
+    justify-content: center;    
+}
+
+.page-two-main-text h1{
+    color: #1F2937;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+}
+
+.image-line-one{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+}
+
+.image-box{
+    width: 15em;
+    height: 15em;
+    border: 0.5em solid #3882F6;
+    border-radius: 1em;
+    padding: 5px;
+
+    float: left;
+    object-fit:cover;
 }
 
