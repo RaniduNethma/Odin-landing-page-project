@@ -127,6 +127,7 @@ white-space: revert;
     height: fit-content;
     display: flex;
     justify-content: center;
+    padding-bottom: 8em;
 }
 
 .page-two-main-text{
@@ -188,4 +189,60 @@ white-space: revert;
     font-family: sans-serif;
     font-size: 1.2rem;
     font-weight: 600;
+}
+
+.page-three{
+    height: 30em;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-three-content-area{
+    max-width: 80em;
+    max-height: 20em;
+}
+
+.quote p{
+    width: 100%;
+    height: 75%;
+    color: #1F2937;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-align: justify;
+}
+
+.author p{
+    width: 100%;
+    height: 25%;
+    color: #1F2937;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+.page-four{
+    height: 25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-four-content-area{
+    height: 10em;
+    background-color: #3882F6;
+    border-radius: 1em;
+    display: flex;
+}
+
+.call-to-action{
+    
+}
+
+.bottom-signup-button{
+    border: 0.1em solid #E5E7EB;
 }
