@@ -237,12 +237,73 @@ white-space: revert;
     background-color: #3882F6;
     border-radius: 1em;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.call-to-action{
-    
+.text-and-button{
+    width: 70%;
+    height: 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-to-action h4{
+    color:#F9FAF8 ;
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    padding: 0.2em 0;
+}
+
+.call-to-action p{
+    color:#F9FAF8 ;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
 }
 
 .bottom-signup-button{
     border: 0.1em solid #E5E7EB;
+}
+
+.footer{
+    height: 8em;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content-area{
+    width: 1500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content-area p{
+    color: #F9FAF8;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.social-media-icons{
+    display: flex;
+}
+
+.social-media-icon-box{
+    width: 30px;
+    height: 30px;
+    background-color: #F9FAF8;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.social-media-icon-box:hover {
+    cursor: pointer;
 }
